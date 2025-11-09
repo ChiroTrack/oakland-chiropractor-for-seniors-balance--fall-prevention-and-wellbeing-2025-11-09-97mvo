@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Oakland Chiropractor for Seniors - Balance, Fall Prevention and Wellbeing. High quality senior care with The Shift Oakland Chiropractor.">
+    <meta name="keywords" content="Oakland Chiropractor, Senior Care, Fall Prevention, Balance, Wellness">
+    <meta name="author" content="The Shift Oakland Chiropractor">
+    <title>Blog | Oakland Chiropractor for Seniors | The Shift</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            scroll-behavior: smooth;
+        }
+        
+        .hero-overlay {
+            background-image: url('https://images.unsplash.com/photo-1576091160550-112173f7f869?w=1200&h=800&fit=crop');
+            background-size: cover;
+            background-position: center;
+            opacity: 0.25;
+        }
+        
+        .cta-bg {
+            background-image: url('https://images.unsplash.com/photo-1631217b5f58-ae8d60d7e0f1?w=1200&h=600&fit=crop');
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .fade-in {
+            animation: fadeIn 0.6s ease-in;
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .mobile-menu {
+            transition: max-height 0.3s ease-in-out;
+        }
+        
+        .mobile-menu.active {
+            display: block;
+        }
+        
+        .accordion-button {
+            transition: all 0.3s ease;
+        }
+        
+        .accordion-button.active {
+            background-color: #f3f4f6;
+        }
+        
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-in-out;
+        }
+        
+        .accordion-content.active {
+            max-height: 500px;
+        }
+        
+        .video-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            border-radius: 0.5rem;
+        }
+        
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+            border-radius: 0.5rem;
+        }
+        
+        .feature-card {
+            transition: all 0.3s ease;
+        }
+        
+        .feature-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+        
+        .benefit-card {
+            transition: all 0.3s ease;
+        }
+        
+        .benefit-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.15);
+        }
+        
+        .testimonial-card {
+            transition: all 0.3s ease;
+        }
+        
+        .testimonial-card:hover {
+            transform: scale(1.02);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+        
+        .blog-card {
+            transition: all 0.3s ease;
+        }
+        
+        .blog-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.15);
+        }
+        
+        .btn-primary {
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary:hover {
+            transform: scale(1.05);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.15);
+        }
+        
+        .btn-primary:focus {
+            outline: none;
+            ring: 2px;
+            ring-offset: 2px;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-900 font-sans">
+    <!-- Navigation Header -->
+    <header class="fixed top-0 left-0 right-0 bg-white shadow-md z-50">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
+            <!-- Logo -->
+            <a href="https://ChiroTrack.github.io/oakland-chiropractor-for-seniors-balance--fall-prevention-and-wellbeing-2025-11-09-97mvo" class="flex items-center gap-2">
+                <i class="fas fa-heartbeat text-2xl text-blue-600"></i>
+                <span class="text-xl font-bold text-gray-900 hidden sm:inline">The Shift</span>
+            </a>
+            
+            <!-- Back Link -->
+            <a href="https://ChiroTrack.github.io/oakland-chiropractor-for-seniors-balance--fall-prevention-and-wellbeing-2025-11-09-97mvo" class="text-gray-700 hover:text-blue-600 transition-colors duration-300 font-medium">
+                ← Back
+            </a>
+        </nav>
+    </header>
+
+    <!-- Blog Listing Section -->
+    <section class="py-16 md:py-24 bg-white pt-32">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- Header -->
+            <div class="text-center mb-12 md:mb-16">
+                <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4 tracking-tight">
+                    Our Blog
+                </h1>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                    Discover expert insights, wellness tips, and the latest information about senior chiropractic care, fall prevention, and maintaining optimal health as you age.
+                </p>
+            </div>
+
+            <!-- Blog Purpose Section -->
+            <div class="mb-16 md:mb-20 bg-gray-50 rounded-lg p-8 md:p-12">
+                <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+                    Welcome to The Shift Blog
+                </h2>
+                <p class="text-gray-600 leading-relaxed mb-4">
+                    At The Shift Oakland Chiropractor, we believe that education is a crucial part of your wellness journey. Our blog is dedicated to providing you with valuable information, practical advice, and evidence-based insights to help you maintain and improve your health as a senior.
+                </p>
+                <p class="text-gray-600 leading-relaxed">
+                    Here you'll find articles covering fall prevention strategies, chiropractic care benefits, exercise routines for seniors, nutrition tips, balance improvement techniques, and much more. Whether you're looking to prevent injuries, manage chronic pain, or simply enhance your overall wellbeing, our blog offers expert guidance to support your health goals.
+                </p>
+            </div>
+
+            <!-- Featured Blog Post -->
+            <div class="mb-16 md:mb-20">
+                <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mb-8">
+                    Latest Article
+                </h2>
+                <div class="blog-card bg-white rounded-lg shadow-md overflow-hidden border-t-4 border-blue-600">
+                    <div class="p-8 md:p-12">
+                        <div class="flex items-center gap-2 mb-4">
+                            <i class="fas fa-calendar text-blue-600"></i>
+                            <span class="text-sm text-gray-500 font-medium">November 9, 2025</span>
+                        </div>
+                        <h3 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+                            Getting Started with Our Platform
+                        </h3>
+                        <p class="text-lg text-gray-600 leading-relaxed mb-8">
+                            Falls are a leading cause of injury in seniors, but they're largely preventable. The Shift Oakland Chiropractor offers comprehensive fall prevention strategies addressing physical and environmental factors. Proper spinal alignment improves balance and nerve function, while core strengthening and proprioceptive training enhance stability. Flexibility work, home safety modifications, and regular vision checks further reduce fall risk. Medication reviews and appropriate footwear matter too. Strong bones through proper nutrition support injury prevention. Beyond physical benefits, personalized fall prevention programs restore confidence and independence, breaking the dangerous cycle of fear-related inactivity. Professional guidance transforms senior wellness and quality of life.
+                        </p>
+                        <a href="https://ChiroTrack.github.io/oakland-chiropractor-for-seniors-balance--fall-prevention-and-wellbeing-2025-11-09-97mvo/blog/getting-started-with-our-platform.html" class="inline-block btn-primary bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg shadow-md focus:ring-2 focus:ring-blue-500">
+                            Read More
+                            <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Additional Blog Posts Section -->
+            <div>
+                <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mb-8">
+                    More Articles Coming Soon
+                </h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Placeholder Card 1 -->
+                    <div class="blog-card bg-white rounded-lg shadow-md overflow-hidden border-t-4 border-blue-600 p-8 flex items-center justify-center min-h-96">
+                        <div class="text-center">
+                            <i class="fas fa-pen-fancy text-4xl text-gray-300 mb-4"></i>
+                            <p class="text-gray-500 font-medium">New article coming soon</p>
+                        </div>
+                    </div>
+
+                    <!-- Placeholder Card 2 -->
+                    <div class="blog-card bg-white rounded-lg shadow-md overflow-hidden border-t-4 border-blue-600 p-8 flex items-center justify-center min-h-96">
+                        <div class="text-center">
+                            <i class="fas fa-pen-fancy text-4xl text-gray-300 mb-4"></i>
+                            <p class="text-gray-500 font-medium">New article coming soon</p>
+                        </div>
+                    </div>
+
+                    <!-- Placeholder Card 3 -->
+                    <div class="blog-card bg-white rounded-lg shadow-md overflow-hidden border-t-4 border-blue-600 p-8 flex items-center justify-center min-h-96">
+                        <div class="text-center">
+                            <i class="fas fa-pen-fancy text-4xl text-gray-300 mb-4"></i>
+                            <p class="text-gray-500 font-medium">New article coming soon</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="relative py-16 md:py-24 overflow-hidden mt-16">
+        <!-- Background Image -->
+        <div class="absolute inset-0 cta-bg opacity-30"></div>
+        
+        <!-- Dark Overlay -->
+        <div class="absolute inset-0 bg-blue-900 opacity-85"></div>
+        
+        <!-- Content -->
+        <div class="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-4 tracking-tight">
+                Ready to Start Your Journey to Better Health?
+            </h2>
+            <p class="text-xl text-blue-100 mb-8 leading-relaxed">
+                Take the first step toward improved balance, fall prevention, and overall wellness. Schedule your appointment with The Shift Oakland Chiropractor today.
+            </p>
+            <a href="https://app.acuityscheduling.com/schedule.php?owner=13033735" target="_blank" rel="noopener noreferrer" class="inline-block btn-primary bg-white hover:bg-gray-100 text-blue-900 font-bold py-4 px-8 rounded-lg shadow-lg focus:ring-2 focus:ring-white">
+                Schedule Your Free Consultation
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 py-12 md:py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mb-8">
+                <!-- Column 1: Company Info -->
+                <div>
+                    <div class="flex items-center gap-2 mb-4">
+                        <i class="fas fa-heartbeat text-2xl text-blue-400"></i>
+                        <span class="text-lg font-bold text-white">The Shift</span>
+                    </div>
+                    <p class="text-sm leading-relaxed mb-4">
+                        Specialized chiropractic care for seniors in Oakland, focusing on balance, fall prevention, and overall wellness.
+                    </p>
+                    <div class="flex gap-4">
+                        <a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">
+                            <i class="fab fa-facebook text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">
+                            <i class="fab fa-twitter text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">
+                            <i class="fab fa-instagram text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">
+                            <i class="fab fa-youtube text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Column 2: Quick Links -->
+                <div>
+                    <h4 class="text-white font-bold mb-4">Quick Links</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="https://ChiroTrack.github.io/oakland-chiropractor-for-seniors-balance--fall-prevention-and-wellbeing-2025-11-09-97mvo#home" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Home</a></li>
+                        <li><a href="https://ChiroTrack.github.io/oakland-chiropractor-for-seniors-balance--fall-prevention-and-wellbeing-2025-11-09-97mvo#features" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Features</a></li>
+                        <li><a href="https://ChiroTrack.github.io/oakland-chiropractor-for-seniors-balance--fall-prevention-and-wellbeing-2025-11-09-97mvo#benefits" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Benefits</a></li>
+                        <li><a href="https://ChiroTrack.github.io/oakland-chiropractor-for-seniors-balance--fall-prevention-and-wellbeing-2025-11-09-97mvo#about" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">About Us</a></li>
+                        <li><a href="https://ChiroTrack.github.io/oakland-chiropractor-for-seniors-balance--fall-prevention-and-wellbeing-2025-11-09-97mvo#testimonials" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Testimonials</a></li>
+                        <li><a href="https://ChiroTrack.github.io/oakland-chiropractor-for-seniors-balance--fall-prevention-and-wellbeing-2025-11-09-97mvo#faq" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">FAQ</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Column 3: Services -->
+                <div>
+                    <h4 class="text-white font-bold mb-4">Services</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="https://ChiroTrack.github.io/oakland-chiropractor-for-seniors-balance--fall-prevention-and-wellbeing-2025-11-09-97mvo#features" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Chiropractic Senior Care</a></li>
+                        <li><a href="https://ChiroTrack.github.io/oakland-chiropractor-for-seniors-balance--fall-prevention-and-wellbeing-2025-11-09-97mvo#features" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Fall Prevention</a></li>
+                        <li><a href="https://ChiroTrack.github.io/oakland-chiropractor-for-seniors-balance--fall-prevention-and-wellbeing-2025-11-09-97mvo#features" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Adjusting</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Blog</a></li>
+                        <li><a href="https://ChiroTrack.github.io/oakland-chiropractor-for-seniors-balance--fall-prevention-and-wellbeing-2025-11-09-97mvo#contact" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Column 4: Contact & Legal -->
+                <div>
+                    <h4 class="text-white font-bold mb-4">Contact</h4>
+                    <ul class="space-y-2 text-sm mb-6">
+                        <li class="flex items-start gap-2">
+                            <i class="fas fa-envelope text-blue-400 mt-1 flex-shrink-0"></i>
+                            <a href="mailto:Theshiftchiropractic@gmail.com" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Theshiftchiropractic@gmail.com</a>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <i class="fas fa-map-marker-alt text-blue-400 mt-1 flex-shrink-0"></i>
+                            <span class="text-gray-400">Oakland, California</span>
+                        </li>
+                    </ul>
+                    <h4 class="text-white font-bold mb-4">Legal</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="privacy.html" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="terms.html" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Footer Bottom -->
+            <div class="border-t border-gray-800 pt-8">
+                <div class="flex flex-col md:flex-row items-center justify-between">
+                    <p class="text-sm text-gray-400 mb-4 md:mb-0">
+                        &copy; <span id="year"></span> The Shift Oakland Chiropractor. All rights reserved.
+                    </p>
+                    <p class="text-sm text-gray-400">
+                        Providing quality senior chiropractic care in Oakland, California.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Set current year in footer
+        document.getElementById('year').textContent = new Date().getFullYear();
+        
+        // Smooth scroll behavior
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
